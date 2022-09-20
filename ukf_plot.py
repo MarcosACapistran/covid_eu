@@ -4,6 +4,10 @@ import scipy.linalg
 from scipy import integrate
 import scipy.stats as ss
 
+"""
+This program is based on https://github.com/jaroslav87/UKF-MNGM by Jaroslaw Goslinski
+"""
+
 class ukf:
 
     def __init__(self, n, m, nobs, dt, label):
